@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
